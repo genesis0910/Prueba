@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/nameTextView"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:text="@string/registration_no"
+            android:text="Origen"
             android:textStyle="bold"/>
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/registrationNumTitle"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:text="@string/tiempo"
+            android:text="Destino"
             android:textStyle="bold"/>
 
         <TextView
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/emailTitle"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:text="@string/phone"
+            android:text="Compañia"
             android:textStyle="bold"/>
 
         <TextView
@@ -79,7 +79,24 @@
             android:layout_marginStart="4dp"
             android:layout_marginLeft="4dp"/>
 
+        <TextView
+            android:id="@+id/phoneTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/phoneTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="Tiempo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="01559541265"
+            app:layout_constraintTop_toBottomOf="@id/comp"
+            app:layout_constraintLeft_toRightOf="@id/phoneTitle2"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
