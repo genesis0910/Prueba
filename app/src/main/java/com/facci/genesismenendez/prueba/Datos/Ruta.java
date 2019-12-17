@@ -5,14 +5,14 @@ public class Ruta {
     private String origen;
     private String destino;
     private String compania;
-    private String email;
+    private String tiempo;
 
-    public Ruta(String ruta, String origen, String destino, String compania, String email) {
+    public Ruta(String ruta, String origen, String destino, String compania, String tiempo) {
         this.ruta = ruta;
         this.origen = origen;
         this.destino = destino;
         this.compania = compania;
-        this.email = email;
+        this.tiempo = tiempo;
     }
 
     public String getRuta() {
@@ -47,11 +47,11 @@ public class Ruta {
         this.compania = compania;
     }
 
-    public String getEmail() {
-        return email;
+    public String getTiempo() {
+        return tiempo;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setTiempo(String tiempo) {
+        this.tiempo = tiempo;
     }
 }

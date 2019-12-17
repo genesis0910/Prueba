@@ -13,9 +13,10 @@ import com.facci.genesismenendez.prueba.R;
 public class CustomViewHolder extends RecyclerView.ViewHolder {
 
     TextView nameTextView;
-    TextView registrationNumTextView;
-    TextView emailTextView;
-    TextView phoneTextView;
+    TextView origennn;
+    TextView destinnooo;
+    TextView company;
+    TextView tiempo;
     ImageView crossButtonImageView;
     ImageView editButtonImageView;
     ConstraintLayout cli_;
@@ -24,9 +25,10 @@ public class CustomViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
 
         nameTextView = itemView.findViewById(R.id.nameTextView);
-        registrationNumTextView = itemView.findViewById(R.id.registrationNumTextView);
-        emailTextView = itemView.findViewById(R.id.emailTextView);
-        phoneTextView = itemView.findViewById(R.id.phoneTextView);
+        origennn = itemView.findViewById(R.id.origen_);
+        destinnooo = itemView.findViewById(R.id.destino_);
+        company = itemView.findViewById(R.id.comp);
+        tiempo = itemView.findViewById(R.id.tiempo);
         cli_ = itemView.findViewById(R.id.clic);
     }
 }
